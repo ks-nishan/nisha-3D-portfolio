@@ -4,7 +4,7 @@
 import { styles } from "../styles";
 
 // import { Style } from "../styles";
-// import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -22,10 +22,10 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             Full Stack Developer | TechnicalWritter
-            
           </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   );
 };

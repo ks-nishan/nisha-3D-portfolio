@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-export const Computers = () => {
+const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   console.log("Computer GLTF:", computer);
   return (

@@ -8,7 +8,7 @@ import {
   Works,
   Navbar,
   Hero,
-  StarsCanvas
+  StarsCanvas,
 } from "./components";
 const App = () => {
   return (
